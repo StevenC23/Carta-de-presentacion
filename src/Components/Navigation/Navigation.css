@@ -1,0 +1,97 @@
+nav {
+  width: 100%;
+  padding: 20px 0;
+  background-color: darkblue;
+}
+
+.Navigation {
+  width: 85%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+/*-----------------Logo-----------------*/
+.Logo {
+  font-size: 20px;
+  text-decoration: none;
+  color: lightgray;
+  transition: all 0.8s ease;
+}
+.Logo:hover {
+  color: white;
+}
+/*-----------------Box-----------------*/
+.Box {
+  font-size: 20px;
+  color: lightgray;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+.Box:hover {
+  color: white;
+}
+/*-----------------Links-----------------*/
+
+.Links-navigation {
+  opacity: 0;
+  pointer-events: none;
+
+  position: absolute;
+  right: 0;
+  top: 55px;
+  list-style: none;
+  background-color: darkblue;
+  border-radius: 4px;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  transition: all 0.5s ease;
+}
+
+.Active-links-navigation {
+  opacity: 1;
+  pointer-events: all;
+  top: 65px;
+}
+
+.Links-navigation li {
+  list-style: none;
+}
+
+.Links-navigation li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: lightgray;
+}
+
+@media only screen and (min-width: 1024px) {
+  .Box {
+    display: none;
+  }
+
+  .Links-navigation {
+    opacity: 1;
+    pointer-events: all;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .Links-navigation li a {
+    padding: 0 30px;
+    font-size: 20px;
+  }
+}
