@@ -18,12 +18,12 @@ const Navigation = () => {
         </div>
         <ul className="Links-navigation ">
           <li>
-            <NavLink to="/" onClick={closeNavigation}>
+            <NavLink to="/about" onClick={closeNavigation}>
               About Me
             </NavLink>
           </li>
           <li>
-            <NavLink to="/" onClick={closeNavigation}>
+            <NavLink to="/works" onClick={closeNavigation}>
               Works
             </NavLink>
           </li>
