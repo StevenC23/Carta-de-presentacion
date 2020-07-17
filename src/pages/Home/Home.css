@@ -1,0 +1,89 @@
+.Component-home {
+  width: 85%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* .Component-home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+*/
+.Component-home img {
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+}
+/*
+
+img {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-name: opacity;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+*/
+.Steven {
+  color: white;
+  font-size: 30px;
+}
+/*  
+
+.Steven {
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+*/
+.Profesion {
+  color: blue;
+  font-size: 25px;
+}
+
+/*
+.profesion {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+*/
+.Universidad {
+  font-size: 15px;
+  color: gray;
+}
+/*
+
+.universidad {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-name: opacity;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+*/
+p {
+  color: #909497;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  font-size: 10px;
+}
+/*
+p {
+  color: #909497;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  font-size: 10px;
+  opacity: 0;
+  animation-duration: 1s;
+  animation-name: opacity;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+} */
+
+/*-----------------Media-----------------*/
+
+@media only screen and (min-width: 1024px) {
+}

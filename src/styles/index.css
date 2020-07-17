@@ -6,10 +6,27 @@
 
 html {
   box-sizing: border-box;
+  background-color: #041066;
+  /* background-image: radial-gradient(blue, darkblue);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; */
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+/*-----------------KeyFrames-----------------*/
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
